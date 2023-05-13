@@ -1,0 +1,6 @@
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) RamMLAB.vhd ]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) ToBCD.vhd ]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) gpu_overlay.vhd ]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) gpu_videoout.vhd ]
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) ddr3test_mister.vhd ]
+
