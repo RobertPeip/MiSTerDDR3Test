@@ -1,0 +1,6 @@
+set_global_assignment -name QIP_FILE rtl/DDR3Test.qip
+set_global_assignment -name QIP_FILE rtl/mem.qip
+set_global_assignment -name QIP_FILE rtl/pll2.qip
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/ddram.sv
+set_global_assignment -name SDC_FILE DDR3Test.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE DDR3Test.sv
