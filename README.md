@@ -1,7 +1,7 @@
 # MiSTerDDR3Test
 Tests DDR3 latency and throughput at different clock speeds
 
-# Visible on screen:
+## Visible on screen
 - Clockrate: will measure the currently used clock using a different clock, just to verify that the clock is stable and has the correct speed
 - Transfers: will count up constantly by 1 for each full transfer being finished. Mostly useful to see that the measurement is still running
 - Delay Min: will show the lowest latency for a single transaction that was measured over time. Value is in clock cycles. Usually does saturate instantly to the lowest value.
@@ -10,7 +10,7 @@ Tests DDR3 latency and throughput at different clock speeds
 - Bytes / s: will display how many Bytes could be written or read in the last second. Will update once per second. Measures the real throughput without any overhead.
 - Burstwait: small detail which will show how many clock cycles a burst read was interrupted in the middle of the transfer. Has the same update interval as the Delay Avg. Can be used to check if you can rely on burst reads to deliver data without pause once the first data word is received. Result: you cannot.
 
-# OSD Options
+## OSD Options
 - Direction: test reading or writing performance
 - Address Mode: You can either let the test read/write to static address, so always the same address is written or read, let the address count up or down or have it totally random in a 4 Mbyte area.
 - Clock Mhz: change between 62.5, 85, 100 or 125 MHz at runtime
